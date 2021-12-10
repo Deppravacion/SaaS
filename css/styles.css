@@ -1,0 +1,27 @@
+header, 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a, 
+nav a { margin-left: 1rem; }
+
+
+
+nav img {
+  max-height: 50px;
+}
+
+nav ul {
+  display: flex;
+}
+
+header .header-left a, 
+header .header-right a {
+  color: var(--font-color-base);
+  font-size: var(--size-14);
+}
+
+ nav ul li a:hover { color: var(--font-color-link); }
