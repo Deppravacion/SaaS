@@ -1,0 +1,20 @@
+header, 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a, 
+nav a { 
+  margin-left: 1rem;
+  color: --var(--font-color-base) 
+}
+
+nav img {
+  max-height: 50px;
+}
+
+nav ul {
+  display: flex;
+}
