@@ -1,15 +1,15 @@
 /*  */
 :root {
-  --white: #fff;
+  --white: #FFF;
   --black: #000;
-  --font-color-base: ;
-  --font-color-dark: ;
-  --font-color-light: ;
-  --font-color-link: ;
-  --success: #64ecf5;
+  --font-color-base: #383838;
+  --font-color-dark: #080808;
+  --font-color-light: #A0A0A0;
+  --font-color-link: #57A6FF;
+  --success: #64ECF5;
   --danger: #FF8B8D;
-  --grad-1: ;
-  --grad-2: ;
+  --grad-1: #b39E9E;
+  --grad-2: #E8E0E6;
 
 }
 
