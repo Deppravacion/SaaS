@@ -84,9 +84,9 @@ img {
 
 .btn-blue {
   background-color: var(--font-color-link);
-  color: #FFF;
+  color: var(--white);
   padding: 0.475rem 1.75rem;
-  box-shadow: 0 0.625rem 125rem rgb(255 255 255 0.35);
+  /* box-shadow: 0 0.610px 20px var(--font-color-light); */
 }
 
 
