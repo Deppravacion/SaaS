@@ -11,13 +11,10 @@ header {
 header a, 
 nav ul li { margin-left: 1rem; }
 
-
 nav {
   display: flex;
   align-items: center;
 }
-
-
 
 nav img {
   max-height: 50px;
@@ -38,3 +35,51 @@ header .header-right a {
 }
 
  nav ul li a:hover { color: var(--font-color-link); }
+
+ /* empowering teams section */
+ .relative { position: relative; }
+.--small-img {
+  max-width: 50px;
+  object-fit: contain;
+}
+
+.--large-img {
+  max-width: 75px;
+  object-fit: contain;
+}
+
+.atlassian {
+  position: absolute;
+  top: 29px;
+  left: 160px;
+}
+
+.asana {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.paypal {
+  position: absolute;
+  left: 0px;
+  bottom: 100px;
+}
+
+.google-ads {
+  position: absolute;
+  left: 116px;
+  bottom: 50px;
+}
+
+.weave {
+  position: absolute;
+  bottom: 100px;
+  left: 296px;
+}
+
+.calandar {
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+}
