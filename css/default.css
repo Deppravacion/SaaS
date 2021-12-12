@@ -34,15 +34,11 @@ body {
   letter-spacing: 0;
   margin: 0;
   padding: 0;
-  /* tips below*/
   max-width: 1200px;
   width: 100%;
   background: rgb(255, 255, 255);
-  background: 
-  linear-gradient(-190deg, rgba(200, 200, 200, 0.2) 66%, rgba(25, 100, 100, 0.6) 67%);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 41.5rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 *,
