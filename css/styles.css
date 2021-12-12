@@ -37,6 +37,23 @@ header .header-right a {
  nav ul li a:hover { color: var(--font-color-link); }
 
  /* empowering teams section */
+.teams {
+  display: flex;
+  margin-top: var(--size-150);
+}
+
+.teams h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.teams p {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+section.teams div { height: 300px; }
+
  .relative { position: relative; }
 .--small-img {
   max-width: 50px;
@@ -63,13 +80,13 @@ header .header-right a {
 .paypal {
   position: absolute;
   left: 0px;
-  bottom: 100px;
+  bottom: 0px;
 }
 
 .google-ads {
   position: absolute;
   left: 116px;
-  bottom: 50px;
+  bottom: 75px;
 }
 
 .weave {
@@ -78,8 +95,8 @@ header .header-right a {
   left: 296px;
 }
 
-.calandar {
+.calendar {
   position: absolute;
   right: 10px;
-  bottom: 20px;
+  bottom: -120px;
 }
