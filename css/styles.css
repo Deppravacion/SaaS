@@ -129,3 +129,26 @@ header .header-right a {
   right: 10px;
   bottom: -120px;
 }
+
+/* Key Benefits section */
+
+section .key-benefits {
+  text-align: center;
+
+}
+
+.--key-benefits-grid {
+  padding: 16px;
+}
+
+.--key-benefits-card {
+  max-width: 190px;
+    box-shadow: 0px 0px 7px grey;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.--key-benefits-card img {
+  width: 41px;
+}
