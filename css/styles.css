@@ -46,7 +46,9 @@ header .header-right a {
  /* empowering teams section */
 .teams {
   display: flex;
+  padding-left: 16px;
   padding-top: var(--size-150);
+  padding-right: 16px;
   height: 120vh;
   background-image: 
   linear-gradient(-190deg, rgba(252, 186, 3, 0.7) 60%, rgba(255, 245, 245, 1) 73%);
@@ -67,7 +69,7 @@ header .header-right a {
 
 .teams > div { height: 370px; }
 
-.teams span {
+.teams .--learn-more {
   color: var(--font-color-link);
   padding-left: 50px;
 }
