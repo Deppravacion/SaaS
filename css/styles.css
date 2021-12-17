@@ -57,6 +57,7 @@ header .header-right a {
 .teams h1 {
   font-size: 50px;
   margin-bottom: 0;
+  line-height: 1.1;
 }
 
 .teams p {
@@ -65,6 +66,11 @@ header .header-right a {
 }
 
 .teams > div { height: 370px; }
+
+.teams span {
+  color: var(--font-color-link);
+  padding-left: 50px;
+}
 
 
  .relative { position: relative; }
