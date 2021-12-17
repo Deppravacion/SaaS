@@ -92,42 +92,42 @@ header .header-right a {
 .google {
   position: absolute;
   top: 0px;
-  left: 5px;
+  left: 1%;
 }
 .atlassian {
   position: absolute;
-  top: 29px;
-  left: 160px;
+  top: 14%;
+  left: 33%;
 }
 
 .asana {
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 5%;
+  right: 5%;
 }
 
 .paypal {
   position: absolute;
-  left: 0px;
-  bottom: 0px;
+  left: 0%;
+  bottom: 25%;
 }
 
 .google-ads {
   position: absolute;
-  left: 116px;
-  bottom: 75px;
+  left: 24%;
+  bottom: 12%;
 }
 
 .weave {
   position: absolute;
-  bottom: 100px;
-  left: 296px;
+  bottom: 25%;
+  left: 50%;
 }
 
 .calendar {
   position: absolute;
-  right: 10px;
-  bottom: -120px;
+  right: 1%;
+  bottom: 0%;
 }
 
 /* Key Benefits section */
@@ -152,3 +152,4 @@ section .key-benefits {
 .--key-benefits-card img {
   width: 41px;
 }
+
