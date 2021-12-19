@@ -45,7 +45,7 @@ header .header-right a {
 
  /* empowering teams section */
 .teams {
-  display: flex;
+  /* display: flex; */
   padding-left: 16px;
   padding-top: var(--size-150);
   padding-right: 16px;
