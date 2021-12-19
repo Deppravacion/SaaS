@@ -17,10 +17,15 @@ header a,
 nav ul li { margin-left: 1rem; }
 
 nav {
+  position: fixed;
   display: flex;
   align-items: center;
-  background: rgba(200, 200, 200, 0.2);
+  background: transparent;
   padding-bottom: 40px;
+}
+
+[aria-controls="navbarDropdown"] {
+  display: none;
 }
 
 nav img {
