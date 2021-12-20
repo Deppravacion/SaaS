@@ -638,7 +638,19 @@
   
   
 
-  <script src="https://kit.fontawesome.com/dc138812ea.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/dc138812ea.js" crossorigin="anonymous">
+    // required to toggle the button aria-state
+
+    const navButton = document.querySelector('button[aria-expanded]');
+
+    function toggleNav({ target }) {
+      const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+      navButton.setAttribute('aria-expanded', !expanded);
+    }
+
+    navButton.addEventListener('click', toggleNav);
+
+  </script>
 </body>
 
 </html>
