@@ -1,0 +1,28 @@
+/* note to self, I want to design mobile first rather than desktop first
+it will be cleaner to design mobile first. 
+@media will be using min-widths instead of max-widths.
+this may trip me up while following along with DTF designs but worth the learning
+*/
+
+/* iPads and tablets -portrait */
+
+@media screen and (max-width: 768px) {
+  [aria-controls="navbarDropdown"] {
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    outline: none;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+  }
+
+  [aria-expanded="false"] ~ ul {
+    display: none;
+  }
+
+  [aria-expanded="true"] ~ ul {
+    display: block;
+  }
+}
