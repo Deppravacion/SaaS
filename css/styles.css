@@ -218,26 +218,31 @@ nav ul {
 /* why font */
 /* why font */
 
-.why-font {
-  text-align: center;
 
-}
 
-.why-font h2 {
-  margin-bottom: 0;
-}
 
-.why-font p {
+
+.wf__wrapper p {
   margin-top: 0;
   margin-bottom: 0;
+}
 
+.wf__wrapper h2 {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 40px;
+}
+
+.dot__wrapper {
+  display: flex;
+  justify-content: space-around;
 }
 
 .dot {
   height: 1px;
   width: 1px;
   padding: 2px;
-  margin: 50px;
+  margin: 25px;
   background-color: dodgerblue;
   border-radius: 50%;
   display: inline-block;
