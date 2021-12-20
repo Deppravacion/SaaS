@@ -419,3 +419,65 @@ nav ul {
   margin-top: 0;
 
 }
+
+
+/* Hire Us */
+/* Hire Us */
+/* Hire Us */
+/* Hire Us */
+
+.hire-us {
+  background: url("../SaaS/banners/12174.jpg") rgba(10, 10, 255, 0.9);
+  object-fit: scale-down;
+  background-blend-mode: color-burn;
+}
+
+.hu__content-wrapper {
+  text-align: center;
+}
+
+.hu__content-wrapper p {
+  color: #faebd7;
+}
+.hu__content-wrapper h2 {
+  color: #faebd7;
+  font-size: 50px;
+  margin: 0;
+  
+}
+
+.hu__content-wrapper h4 {
+  color: #faebd7;
+  margin-bottom: 0;
+}
+
+.hu__content-wrapper h5 {
+font-weight: 500;
+color: var(--font-color-light);
+margin-top: 0;
+
+}
+
+.hu__content-wrapper h6 {
+  color: var(--font-color-light);
+  margin-top: 0;
+
+}
+
+.hu__content-wrapper hr {
+  color: var(--font-color-light);
+}
+
+
+
+
+.hu__content-wrapper p { 
+  font-size: 25px; 
+}
+
+
+
+.thumbnails img {
+  max-width: 50px;
+  border-radius: 50%;
+}
