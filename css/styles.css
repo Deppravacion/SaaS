@@ -224,7 +224,8 @@ nav ul {
 
 .wf__wrapper p {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 20px;
+  color: var(--font-color-light);
 }
 
 .wf__wrapper h2 {
@@ -247,4 +248,18 @@ nav ul {
   border-radius: 50%;
   display: inline-block;
   box-shadow: 0px 0px 1px 25px lightblue;
+}
+.dash {
+  height: 2px;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-bottom: 1px solid grey;
+  margin-left: 5px;
+  margin-right: 5px;
+  
+}
+
+.items__wrapper {
+  text-align: center;
 }
