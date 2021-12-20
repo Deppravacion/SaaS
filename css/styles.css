@@ -263,3 +263,30 @@ nav ul {
 .items__wrapper {
   text-align: center;
 }
+
+
+/* executive director  christina kray */
+/* executive director  christina kray */
+/* executive director  christina kray */
+
+.ex__wrapper-relative {
+  position: relative;
+  height: 420px;
+
+}
+
+.ex__image-wrapper-dots {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  max-width: 40%;
+  z-index: 1;
+}
+
+.ex__image-wrapper-woman {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  max-width: 90%;
+  z-index: 10;
+}
