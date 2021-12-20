@@ -96,7 +96,8 @@ img {
 
 
 /* media breaks used from codeRAD */
-@media (min-width: 768px) {
+
+/* @media (min-width: 768px) {
   .class-name { max-width: 720px; }
 }
 
@@ -109,4 +110,4 @@ img {
 @media (min-width: 1200px) {
   .class-name { max-width: 1140px; }
 
-}
+} */

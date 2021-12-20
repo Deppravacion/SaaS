@@ -68,8 +68,8 @@
   <!-- empowering teams section -->
   <section class="teams">
     <div class="container">
-      <h1>Empowering <br>teams with the <br>freedom</h1>
-      <p>Own the unlimited power of the web <br>development.</p>
+      <h1>Empowering teams with the freedom</h1>
+      <p>Own the unlimited power of the web development.</p>
       <span>
         <a href="#" class="btn btn-blue"><i class="fas fa-play-circle"></i> Play Video</a>
       </span>
@@ -643,19 +643,23 @@
   
   
 
-  <script src="https://kit.fontawesome.com/dc138812ea.js" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/dc138812ea.js" crossorigin="anonymous"></script>
+  <script>
     // required to toggle the button aria-state
 
     const navButton = document.querySelector('button[aria-expanded]');
 
-    function toggleNav({ target }) {
-      const expanded = target.getAttribute('aria-expanded') === 'true' || false;
-      navButton.setAttribute('aria-expanded', !expanded);
-    }
+      function toggleNav({ target }) {
+        const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+        navButton.setAttribute('aria-expanded', !expanded);
+      }
 
     navButton.addEventListener('click', toggleNav);
 
   </script>
+
+
+  
 </body>
 
 </html>

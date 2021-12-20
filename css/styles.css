@@ -13,20 +13,24 @@ header {
   padding-bottom: 16px;
 }
 
-header a, 
-nav ul li { margin-left: 1rem; }
+header .header-left a, 
+header .header-right a {
+  color: var(--font-color-base);
+  font-size: var(--size-14);
+}
+
+header a { margin-left: 1rem; }
+
 
 nav {
-  position: fixed;
+  
   display: flex;
   align-items: center;
   background: transparent;
   padding-bottom: 40px;
 }
 
-[aria-controls="navbarDropdown"] {
-  display: none;
-}
+nav ul li { margin-left: 1rem; }
 
 nav img {
   max-height: 50px;
@@ -38,12 +42,9 @@ nav ul {
   justify-content: flex-end;
 }
 
-nav .btn.btn-blue { margin-left: 1rem; }
 
-header .header-left a, 
-header .header-right a {
-  color: var(--font-color-base);
-  font-size: var(--size-14);
+[aria-controls="navbarDropdown"] {
+  display: none;
 }
 
  nav ul li a:hover { color: var(--font-color-link); }
@@ -160,6 +161,7 @@ header .header-right a {
   max-width: 100%;
   box-shadow: 0px 0px 7px grey;
   padding: 16px;
+  margin-bottom: 20px
   display: flex;
   flex-direction: column;
 }
@@ -168,6 +170,11 @@ header .header-right a {
   width: 50px;
 }
 
+.key-benefits__card h4 {
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
 /* software for people */
 
 .software-for-people {
