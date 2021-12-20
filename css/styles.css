@@ -206,7 +206,8 @@ nav ul {
 /* software for people */
 
 .software-for-people {
-  background: lightcyan;
+  background: linear-gradient(269deg, lightsteelblue, transparent); ;
+  padding-bottom: 100px;
 }
 
 .sfp__get-started {
@@ -218,6 +219,10 @@ nav ul {
 /* why font */
 /* why font */
 
+.why-front {
+  background: linear-gradient(220deg, lightgrey, transparent);
+  padding-bottom: 100px;
+}
 
 
 
@@ -225,7 +230,7 @@ nav ul {
 .wf__wrapper p {
   margin-top: 0;
   margin-bottom: 20px;
-  color: var(--font-color-light);
+  color: var(--font-color-dark);
 }
 
 .wf__wrapper h2 {
@@ -269,6 +274,10 @@ nav ul {
 /* executive director  christina kray */
 /* executive director  christina kray */
 
+
+.executive {
+  margin-top: 50px;
+}
 .ex__wrapper-relative {
   position: relative;
   height: 420px;
@@ -289,4 +298,29 @@ nav ul {
   right: 0%;
   max-width: 90%;
   z-index: 10;
+}
+
+.ex__content-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.ex__content-image-wrapper-logo {
+  max-width: 100px;
+}
+
+.ex__content-wrapper p {
+  color: var(--font-color-dark);
+  font-size: 20px;
+}
+
+.ex__content-wrapper h4 {
+  margin: 0;
+
+}
+
+.ex__content-wrapper h6 {
+  margin: 0;
+  color: var(--font-color-light);
 }
