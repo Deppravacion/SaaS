@@ -9,7 +9,7 @@ header {
   align-items: center;
 }
 
-header .container {
+.header-container {
   padding-bottom: 16px;
 }
 
@@ -90,14 +90,14 @@ header .header-right a {
  }
 
 .--small-img {
-  max-width: 40px;
+  max-width: 20px;
   object-fit: contain;
   border-radius: 50%;
   background: white;
 }
 
 .--large-img {
-  max-width: 50px;
+  max-width: 25px;
   object-fit: contain;
   background: white;
 }
