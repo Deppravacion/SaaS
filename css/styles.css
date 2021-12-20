@@ -50,6 +50,8 @@ nav ul {
  nav ul li a:hover { color: var(--font-color-link); }
 
  /* empowering teams section */
+ /* empowering teams section */
+
 .teams {
   /* display: flex; */
   padding-left: 16px;
@@ -145,6 +147,7 @@ nav ul {
 }
 
 /* Key Benefits section */
+/* Key Benefits section */
 
 
 .key-benefits {
@@ -161,7 +164,7 @@ nav ul {
   max-width: 100%;
   box-shadow: 0px 0px 7px grey;
   padding: 16px;
-  margin-bottom: 20px
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -175,9 +178,68 @@ nav ul {
   margin-bottom: 0;
   margin-top: 0;
 }
+
+.key-benefits__card p {
+  text-align: initial;
+  color: rgba(200, 200, 200, 0.9);
+}
+
+.key-benefits__card a {
+  color: var(--font-color-link);
+
+}
+
+.key-benefits__card span { 
+  float: right;
+  
+}
+
+.green {
+  background: green;
+  border-radius: 999px;
+  width: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white; 
+}
+/* software for people */
 /* software for people */
 
 .software-for-people {
   background: lightcyan;
 }
 
+.sfp__get-started {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+
+/* why font */
+/* why font */
+
+.why-font {
+  text-align: center;
+
+}
+
+.why-font h2 {
+  margin-bottom: 0;
+}
+
+.why-font p {
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+.dot {
+  height: 1px;
+  width: 1px;
+  padding: 2px;
+  margin: 50px;
+  background-color: dodgerblue;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0px 0px 1px 25px lightblue;
+}
