@@ -332,7 +332,6 @@ nav ul {
 
 .worlds-best {
   margin-top: 50px;
-  margin-bottom: 50px;
   background:
   linear-gradient(0deg, rgba(0,0,0,0.15) 0%, rgba(255,255,255,1) 15%);
   padding-bottom: 50px;
@@ -373,6 +372,7 @@ nav ul {
 .pricing h2 {
   font-size: 50px;
   margin-bottom: 0;
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -437,17 +437,17 @@ nav ul {
 }
 
 .hu__content-wrapper p {
-  color: #faebd7;
+  color: #f9ffe3;
 }
 .hu__content-wrapper h2 {
-  color: #faebd7;
+  color: #f9ffe3;
   font-size: 50px;
   margin: 0;
   
 }
 
 .hu__content-wrapper h4 {
-  color: #faebd7;
+  color: #f9ffe3;
   margin-bottom: 0;
 }
 
@@ -480,4 +480,12 @@ margin-top: 0;
 .thumbnails img {
   max-width: 50px;
   border-radius: 50%;
+}
+
+/* form bit */
+
+.form-container {
+  background: #f5fffa;
+  border: none;
+  border-radius: 12px;
 }

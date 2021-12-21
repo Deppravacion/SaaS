@@ -324,16 +324,23 @@
     
 
 
-    <div class="form-container">
+    <div class="form-container container">
       <h2>Fill out the form and we'll be in touch as soon as possible.</h2>
       <form action="/action_page.php">
-        <input type="text" placeholder="First Name">
-        <br>
-        <input type="text" placeholder="Last Name">
-        <br>
-        <input type="text" placeholder="Work email">
-        <br>
-        <input type="text" placeholder="Company website">
+        <div class="fc__input-wrapper">
+          <input type="text" placeholder="First Name">
+        </div>
+        <div class="fc__input-wrapper">
+          <input type="text" placeholder="Last Name">
+        </div>
+        <div class="fc__input-wrapper">
+          <input type="text" placeholder="Work email">
+        </div>
+        <div class="fc__input-wrapper">
+          <input type="text" placeholder="Company website">
+        </div>
+        
+        
         <br>
         <!-- budget drop down menu -->
         <select name="budget" id="budget">
