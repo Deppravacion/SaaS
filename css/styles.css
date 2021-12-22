@@ -237,6 +237,7 @@ nav ul {
   text-align: center;
   margin-bottom: 0;
   font-size: 40px;
+  margin-top: 0;
 }
 
 .dot__wrapper {
@@ -374,6 +375,7 @@ nav ul {
   margin-bottom: 0;
   padding-top: 50px;
   text-align: center;
+  margin-top: 0;
 }
 
 .pricing h5 {
@@ -488,4 +490,29 @@ margin-top: 0;
   background: #f5fffa;
   border: none;
   border-radius: 12px;
+}
+
+
+
+.form-container h2 {
+  color: brown;
+  text-align: center;
+}
+
+.fc__input-wrapper {
+  border: 1px solid dodgerblue;
+  border-radius: 15px;
+  background: aliceblue;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.form-container input {
+  border: none;
+  background: transparent;
+  color: 
+}
+
+.form-container ::placeholder {
+  color: var(--font-color-light);
 }
