@@ -432,6 +432,7 @@ nav ul {
   background: url("../SaaS/banners/12174.jpg") rgba(10, 10, 255, 0.9);
   object-fit: scale-down;
   background-blend-mode: color-burn;
+  padding-bottom: 50px;
 }
 
 .hu__content-wrapper {
@@ -500,7 +501,8 @@ margin-top: 0;
 }
 
 .fc__input-wrapper,
-.fc__select-option-wrapper {
+.fc__select-option-wrapper,
+.fc__textarea-wrapper {
   border: 1px solid dodgerblue;
   border-radius: 15px;
   background: aliceblue;
@@ -509,7 +511,8 @@ margin-top: 0;
 }
 
 .form-container input,
-.form-container select {
+.form-container select,
+.form-container textarea {
   border: none;
   background: transparent;
   color: var(--font-color-light);
