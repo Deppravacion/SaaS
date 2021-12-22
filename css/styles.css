@@ -499,7 +499,8 @@ margin-top: 0;
   text-align: center;
 }
 
-.fc__input-wrapper {
+.fc__input-wrapper,
+.fc__select-option-wrapper {
   border: 1px solid dodgerblue;
   border-radius: 15px;
   background: aliceblue;
@@ -507,12 +508,23 @@ margin-top: 0;
   margin: 5px 0;
 }
 
-.form-container input {
+.form-container input,
+.form-container select {
   border: none;
   background: transparent;
-  color: 
+  color: var(--font-color-light);
 }
 
 .form-container ::placeholder {
   color: var(--font-color-light);
+  
+}
+
+ {
+  border: 1px solid dodgerblue;
+  border-radius: 15px;
+  background: aliceblue;
+  padding: 5px;
+  margin: 5px 0;
+
 }

@@ -341,14 +341,22 @@
         </div>
         
         
-        <br>
+       
         <!-- budget drop down menu -->
-        <select name="budget" id="budget">
-          <option value="low">$1,200</option>
-          <option value="medium">$10,000</option>
-          <option value="high">$50,000+</option>
-        </select>
-        <br>
+        <div class="fc__select-option-wrapper">
+          <select name="budget" id="budget">
+            <option value="low">$1,200</option>
+            <option value="medium">$10,000</option>
+            <!-- spaces added to value to style the down carrot -->
+            <option value="high">$50,000___________________________________+</option> 
+          </select>
+        </div>
+        
+    
+
+        <div class="fc__select-option-wrapper">
+
+        
         
         <!-- country drop menu -->
         <select id="country" name="country">
@@ -583,7 +591,8 @@
           <option value="United Kingdom">United Kingdom</option>
           <option value="Ukraine">Ukraine</option>
           <option value="United Arab Erimates">United Arab Emirates</option>
-          <option value="United States of America">United States of America</option>
+          <!-- added values in usa to style the down carrot similarly to the budget section -->
+          <option value="United States of America">United States of America______________________-</option>
           <option value="Uraguay">Uruguay</option>
           <option value="Uzbekistan">Uzbekistan</option>
           <option value="Vanuatu">Vanuatu</option>
@@ -599,6 +608,8 @@
           <option value="Zambia">Zambia</option>
           <option value="Zimbabwe">Zimbabwe</option>
         </select>
+
+      </div>
         <br>
 
         <textarea name="" id="" cols="30" rows="10" placeholder="Tell us more about your project, needs, and timeline. "></textarea>
