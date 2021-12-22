@@ -347,8 +347,8 @@
           <select name="budget" id="budget">
             <option value="low">$1,200</option>
             <option value="medium">$10,000</option>
-            <!-- spaces added to value to style the down carrot -->
-            <option value="high">$50,000___________________________________+</option> 
+            
+            <option value="high">$50,000+</option> 
           </select>
         </div>
         
@@ -362,8 +362,7 @@
           <select id="country" name="country">
           
           <option value="United States of America">United States of America</option>
-          <!-- added values in afgan to style the down carrot similarly to the budget section -->
-          <option value="Afganistan">Afghanistan_________________________________</option>
+          <option value="Afganistan">Afghanistan</option>
           <option value="Albania">Albania</option>
           <option value="Algeria">Algeria</option>
           <option value="American Samoa">American Samoa</option>
@@ -612,16 +611,23 @@
 
       </div>
         <div class="fc__textarea-wrapper">
-          <textarea name="" id="" cols="42" rows="10" placeholder="Tell us more about your project, needs, and timeline."></textarea>
+          <textarea name="" id=""  placeholder="Tell us more about your project, needs, and timeline."></textarea>
 
         </div>
 
         
-        <Br>
-        <span><i class="fas fa-check-square"></i></span>
-        <p>Yes, I'd like to receive occasional marketing emails from Front. I have the right to opt out at any time. View privacy policy.</p>
-        <br>
-        <a href="#">Get Started</a>
+     <div class="fc__checkbox-wrapper">
+      <input type="checkbox" class="checkbox">
+      <label>Yes, I'd like to receive occasional marketing emails from Front. I have the right to opt out at any time. 
+        <a href="#" class="fc__privacy-policy">View privacy policy.</a></label>
+      <br>
+      <div class="fc__link-wrapper">
+        <a href="#" class="btn btn-blue fc__btn-wide">Get Started</a>
+      </div>
+      
+     </div>
+        
+      
       </form>
     </div>
   </section>

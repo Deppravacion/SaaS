@@ -495,7 +495,8 @@ margin-top: 0;
 
 
 
-.form-container h2 {
+.form-container h2,
+.form-container label {
   color: brown;
   text-align: center;
 }
@@ -517,17 +518,26 @@ margin-top: 0;
   background: transparent;
   color: var(--font-color-light);
 }
+/* responsive textarea */
+.form-container textarea {
+  box-sizing: border-box;
+  width: 100%
+}
+
 
 .form-container ::placeholder {
   color: var(--font-color-light);
   
 }
 
- {
-  border: 1px solid dodgerblue;
-  border-radius: 15px;
-  background: aliceblue;
-  padding: 5px;
-  margin: 5px 0;
+.fc__link-wrapper {
+  padding: 25px 0px 50px 0px;
+  text-align: center;
+}
+.fc__privacy-policy {
+  border-bottom: 1px dotted var(--font-color-dark);
+}
 
+.fc__btn-wide {
+  padding: 5px 100px;
 }
