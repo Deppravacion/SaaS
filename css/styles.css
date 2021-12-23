@@ -9,6 +9,7 @@
   padding-bottom: 40px;
   width: 100%;
   z-index: 1111;
+  transition: ease-in-out 0.3s;
  
 }
 
@@ -89,9 +90,14 @@
 }
 
 
- .relative { position: relative; }
+.relative { 
+  position: relative;
+}
+ 
 
- .teams .wrapper {
+
+
+.teams__wrapper {
   padding: 18px;
   background: white;
   border-radius: 50%;
@@ -150,6 +156,127 @@
   position: absolute;
   right: 1%;
   bottom: 0%;
+}
+
+/* below is the animation group */
+
+.teams__wrapper.google, 
+.teams__wrapper.google-ads {
+  animation: bounce-1 4s ease-in-out ;
+  animation-fill-mode: forwards ;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes bounce-1 {
+  0%, 40%, 60%, 80% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: translateY(-30%);
+  }
+
+  50% {
+    transform: translateY(-11%);
+  }
+
+  70% {
+    transform: translateY(-4%);
+  }
+/* 80% to 100% set to 0 is acting as the loop delay since infinite iteration */
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.teams__wrapper.asana, 
+.teams__wrapper.paypal {
+  animation: bounce-2 4.2s ease-in-out ;
+  animation-fill-mode: forwards ;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes bounce-2 {
+  0%, 40%, 60%, 80% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: translateY(-36%);
+  }
+
+  50% {
+    transform: translateY(-15%);
+  }
+
+  70% {
+    transform: translateY(-5%);
+  }
+/* 80% to 100% set to 0 is acting as the loop delay since infinite iteration */
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.teams__wrapper.atlassian, 
+.teams__wrapper.calendar {
+  animation: bounce-3 3.8s ease-in-out ;
+  animation-fill-mode: forwards ;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes bounce-3 {
+  0%, 40%, 60%, 80% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: translateY(-28%);
+  }
+
+  50% {
+    transform: translateY(-20%);
+  }
+
+  70% {
+    transform: translateY(-8%);
+  }
+/* 80% to 100% set to 0 is acting as the loop delay since infinite iteration */
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.teams__wrapper.weave {
+  animation: bounce-3 4.5s ease-in-out ;
+  animation-fill-mode: forwards ;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes bounce-3 {
+  0%, 40%, 60%, 80% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: translateY(-36%);
+  }
+
+  50% {
+    transform: translateY(-15%);
+  }
+
+  70% {
+    transform: translateY(-5%);
+  }
+/* 80% to 100% set to 0 is acting as the loop delay since infinite iteration */
+  100% {
+    transform: translateY(0);
+  }
 }
 
 /* Key Benefits section */
