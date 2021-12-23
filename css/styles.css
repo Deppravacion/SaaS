@@ -54,6 +54,9 @@
 
  /* empowering teams section */
  /* empowering teams section */
+ /* empowering teams section */
+ /* empowering teams section */
+ /* empowering teams section */
 
 .teams {
   overflow: hidden;
@@ -151,6 +154,9 @@
 
 /* Key Benefits section */
 /* Key Benefits section */
+/* Key Benefits section */
+/* Key Benefits section */
+/* Key Benefits section */
 
 
 .key-benefits {
@@ -213,6 +219,9 @@
 }
 /* software for people */
 /* software for people */
+/* software for people */
+/* software for people */
+/* software for people */
 
 .software-for-people {
   background: linear-gradient(269deg, lightsteelblue, transparent); ;
@@ -236,8 +245,24 @@
   padding-bottom: 100px;
 }
 
+.elements {
+  display: flex;
+  text-align: center;
+}
+.elements dot-wrapper {
+  flex: 1;
+}
 
+.elements h4 {
+  flex: 2;
+}
 
+.vertical-dash {
+  width: 1px;
+  height: 50px;
+  background-color: dodgerblue;
+  margin: 5px 0px 5px 26px;
+}
 
 .wf__wrapper p {
   margin-top: 0;
@@ -252,9 +277,10 @@
   margin-top: 0;
 }
 
-.dot__wrapper {
+.dot-wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
 }
 
 .dot {
@@ -283,6 +309,8 @@
 }
 
 
+/* executive director  christina kray */
+/* executive director  christina kray */
 /* executive director  christina kray */
 /* executive director  christina kray */
 /* executive director  christina kray */
@@ -346,6 +374,8 @@
 /* worlds best */
 /* worlds best */
 /* worlds best */
+/* worlds best */
+/* worlds best */
 
 .worlds-best {
   margin-top: 50px;
@@ -374,6 +404,7 @@
 }
 
 
+/* pricing pricing pricing */
 /* pricing pricing pricing */
 /* pricing pricing pricing */
 /* pricing pricing pricing */
@@ -443,6 +474,7 @@
 /* Hire Us */
 /* Hire Us */
 /* Hire Us */
+/* Hire Us */
 
 .hire-us {
   background: url("../SaaS/banners/12174.jpg") rgba(10, 10, 255, 0.9);
@@ -501,6 +533,8 @@ margin-top: 0;
   border-radius: 50%;
 }
 
+/* form bit */
+/* form bit */
 /* form bit */
 
 .form-container {
@@ -580,6 +614,8 @@ input#submit {
 }
 
 
+/* footer */
+/* footer */
 /* footer */
 /* footer */
 /* footer */
