@@ -53,10 +53,9 @@ nav ul {
  /* empowering teams section */
 
 .teams {
-  /* display: flex; */
-  padding-left: 16px;
-  padding-top: var(--size-150);
-  padding-right: 16px;
+  overflow: hidden;
+  padding: 150px 16px 150px 16px;
+
   height: 120vh;
   background-image: 
   linear-gradient(-190deg, rgba(255, 165, 0, 0.9) 60%, rgba(255, 245, 245, 1) 73%);
@@ -291,6 +290,7 @@ nav ul {
 .ex__wrapper-relative {
   position: relative;
   height: 420px;
+  overflow: hidden;
 
 }
 
@@ -309,28 +309,6 @@ nav ul {
   max-width: 90%;
   z-index: 10;
 }
-
-
-/* test area below  */
-/* .ex__wrapper-relative {
-  height: 500px;
-  background-image: url("../SaaS/icons/dots.svg"), url("../SaaS/people/woman_three.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-} */
-
-/* .ex__image-wrapper-dots {
-  float: left;
-  width: 25%;
-}
-
-.ex__image-wrapper-woman {
-  float: right;
-  width: 80%;
-} */
-
-
-/* test area above */
 
 
 .ex__content-wrapper {
@@ -572,6 +550,27 @@ margin-top: 0;
 
 .fc__btn-wide {
   padding: 5px 100px;
+}
+
+input#submit {
+  display: inline-block;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+
+  border-radius: var(--size-18);
+  transition: ease-in-out 0.3s;
+
+  background-color: var(--font-color-link);
+  color: var(--white);
+
+  padding: 5px 100px;
+
+
 }
 
 
