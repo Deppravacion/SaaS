@@ -14,35 +14,36 @@
 </head>
 
 <body>
-  <header class="header-container">
-    <div class="header-left">
-      <a href="#">
-        <i class="fas fa-chevron-left"></i>
-        Main Demo
-      </a>
-    </div>
-    <div class="header-right">
-      <a href="#">
-        Demos<i class="fas fa-chevron-down"></i>
-      </a>
-      <a href="#">
-        Docs<i class="fas fa-chevron-down"></i>
-      </a>
-    </div>
-  </header>
+  <div id="pageTop"></div>
 
 
-  <nav class="nav-container">
-    <div class="container">
-      <span>
-        <img src="./SaaS/project_logo/logo.svg" alt="logo">
-      </span>
+<!-- testing  -->
+<nav id="topNav" class="navbar">
+  <div class="container" >
+    <div class="topper">
+      <div class="header-left">
+        <a href="#">
+          <i class="fas fa-chevron-left"></i>
+          Main Demo
+        </a>
+      </div>
+      <div class="header-right">
+        <a href="#">
+          Demos<i class="fas fa-chevron-down"></i>
+        </a>
+        <a href="#">
+          Docs<i class="fas fa-chevron-down"></i>
+        </a>
+      </div>
     </div>
-    <div class="container">
+    <div class="navbar-wrapper">
       <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
         <i class="fas fa-bars"></i>
       </button>
-      <ul>
+      <span>
+        <img src="./SaaS/project_logo/logo.svg" alt="logo">
+      </span>
+      <ul class="navbar-list">
         <li>
           <a href="#top">Home</a>
         </li>
@@ -64,7 +65,17 @@
       </ul>
     </div>
     
-  </nav>
+  </div>
+
+</nav>
+
+
+
+
+<!-- testing  -->
+
+
+
   <!-- empowering teams section -->
   <!-- empowering teams section -->
   <!-- empowering teams section -->
@@ -740,6 +751,22 @@
 
   <script src="https://kit.fontawesome.com/dc138812ea.js" crossorigin="anonymous"></script>
   <script>
+
+    // controls the scroll effect on navbar
+
+    const nav = document.getElementById("topNav");
+        window.onscroll = function () {
+            if (window.pageYOffset > 100) {
+                nav.classList.add("sticky");
+            } else {
+                nav.classList.remove("sticky");
+            }
+
+        }
+
+
+
+
     // required to toggle the button aria-state
 
     const navButton = document.querySelector('button[aria-expanded]');
