@@ -164,7 +164,7 @@
 .teams__wrapper.google-ads {
   animation: bounce-1 4s ease-in-out ;
   animation-fill-mode: forwards ;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
   
 }
 
@@ -178,11 +178,11 @@
   }
 
   50% {
-    transform: translateY(-11%);
+    transform: translateY(-7%);
   }
 
   70% {
-    transform: translateY(-4%);
+    transform: translateY(-2%);
   }
 /* 80% to 100% set to 0 is acting as the loop delay since infinite iteration */
   100% {
@@ -194,7 +194,7 @@
 .teams__wrapper.paypal {
   animation: bounce-2 4.2s ease-in-out ;
   animation-fill-mode: forwards ;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
   
 }
 
@@ -208,11 +208,11 @@
   }
 
   50% {
-    transform: translateY(-15%);
+    transform: translateY(-7%);
   }
 
   70% {
-    transform: translateY(-5%);
+    transform: translateY(-2%);
   }
 /* 80% to 100% set to 0 is acting as the loop delay since infinite iteration */
   100% {
@@ -222,9 +222,9 @@
 
 .teams__wrapper.atlassian, 
 .teams__wrapper.calendar {
-  animation: bounce-3 3.8s ease-in-out ;
+  animation: bounce-3 3.8s ease-in ;
   animation-fill-mode: forwards ;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
   
 }
 
@@ -238,11 +238,11 @@
   }
 
   50% {
-    transform: translateY(-20%);
+    transform: translateY(-6%);
   }
 
   70% {
-    transform: translateY(-8%);
+    transform: translateY(-1%);
   }
 /* 80% to 100% set to 0 is acting as the loop delay since infinite iteration */
   100% {
@@ -251,9 +251,9 @@
 }
 
 .teams__wrapper.weave {
-  animation: bounce-3 4.5s ease-in-out ;
+  animation: bounce-3 5s ease-in-out ;
   animation-fill-mode: forwards ;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
   
 }
 
