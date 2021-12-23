@@ -19,5 +19,6 @@
 
   [aria-expanded="true"] ~ ul {
     display: block;
+    margin-left: 100px;
   }
 }

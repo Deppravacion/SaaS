@@ -1,25 +1,4 @@
-header {
-  /* margin-bottom: 1rem; */
-  background: rgba(200, 200, 200, 0.2);
-}
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header-container {
-  padding-bottom: 16px;
-}
-
-header .header-left a, 
-header .header-right a {
-  color: var(--font-color-base);
-  font-size: var(--size-14);
-}
-
-header a { margin-left: 1rem; }
 
 
 .navbar {
@@ -246,6 +225,9 @@ header a { margin-left: 1rem; }
 }
 
 
+/* why font */
+/* why font */
+/* why font */
 /* why font */
 /* why font */
 
