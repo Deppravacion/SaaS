@@ -172,7 +172,7 @@ nav ul {
 
 .key-benefits__card:hover {
   
-  box-shadow: inset 0px -5px 10px skyblue, 0px 0px 21px grey;
+  box-shadow: inset 0px -5px 1px skyblue, 0px 0px 21px grey;
 }
 
 .key-benefits__card img {
