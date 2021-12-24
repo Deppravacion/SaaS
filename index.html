@@ -323,38 +323,42 @@
   <section class="pricing container" id="pricing">
     <h2>Pricing</h2>
     <h5>No additional costs. Pay for what you use.</h5>
-    <div class="p__main-card-wrapper">
-      <span class="large">$59</span class="small"><span>/ mo</span>
-      <hr>
-      <h4>Start your Front business now. 100% guaranteed money back. No questions asked.</h4>
-      <a class="btn btn-blue"  href="#">
-        Get Started
-      </a>
-      <h6>No credit card required.</h6>
+
+    <div class="p__flex-wrapper">
+      <div class="p__main-card-wrapper">
+        <span class="large">$59</span class="small"><span>/ mo</span>
+        <hr>
+        <h4>Start your Front business now. 100% guaranteed money back. No questions asked.</h4>
+        <a class="btn btn-blue"  href="#">
+          Get Started
+        </a>
+        <h6>No credit card required.</h6>
+      </div>
+      
+      <div class="p__grid-wrapper container">
+        <div class="p__grid-card">
+          <img src="./SaaS/icons/components.svg" alt="components">
+          <h3>Hundreds of components</h3>
+          <p>Achieve maximum productivity with minimum effort with Front and create robust limitless products. </p>
+        </div>
+        <div class="p__grid-card">
+          <img src="./SaaS/icons/images.svg" alt="images">
+          <h3>Images included</h3>
+          <p>We made custom license for all our premium images in the Front.</p>
+        </div>
+        <div class="p__grid-card">
+          <img src="./SaaS/icons/cancel.svg" alt="cancel">
+          <h3>Cancel anytime</h3>
+          <p>If its not for you, just cancel, non hidden costs of fees.</p>
+        </div>
+        <div class="p__grid-card">
+          <img src="./SaaS/icons/moneyback.svg" alt="moneyback">
+          <h3>Money back</h3>
+          <p>100% guaranteed money back. No questions asked.</p>
+        </div>
+      </div>
     </div>
-    <div class="p__grid-wrapper container">
-      <div class="p__grid-card">
-        <img src="./SaaS/icons/components.svg" alt="components">
-        <h3>Hundreds of components</h3>
-        <p>Achieve maximum productivity with minimum effort with Front and create robust limitless products. </p>
-      </div>
-      <div class="p__grid-card">
-        <img src="./SaaS/icons/images.svg" alt="images">
-        <h3>Images included</h3>
-        <p>We made custom license for all our premium images in the Front.</p>
-      </div>
-      <div class="p__grid-card">
-        <img src="./SaaS/icons/cancel.svg" alt="cancel">
-        <h3>Cancel anytime</h3>
-        <p>If its not for you, just cancel, non hidden costs of fees.</p>
-      </div>
-      <div class="p__grid-card">
-        <img src="./SaaS/icons/moneyback.svg" alt="moneyback">
-        <h3>Money back</h3>
-        <p>100% guaranteed money back. No questions asked.</p>
-      </div>
-    </div>
-  </section>
+    </section>
 
   <!-- hire us -->
   <!-- hire us -->
@@ -695,18 +699,21 @@
   <!-- footer -->
 
   <section class="footer container">
-    <div class="f__logo-wrapper">
-      <a href="#top">
-        <img src="./SaaS/project_logo/logo.svg" alt="front logo">
-      </a>
-    </div>
-    <div class="f__contact-info">
-      
-      <span><i class="fas fa-location-arrow"></i>153 Williamson Plaza, Maggieberg</span>
-      <br>
-      <span><i class="fas fa-phone-alt"></i> +1(062) 109-9222</span>
-    </div>
+    <div class="f__contact-wrapper">
 
+      <div class="f__logo-wrapper">
+        <a href="#top">
+          <img src="./SaaS/project_logo/logo.svg" alt="front logo">
+        </a>
+      </div>
+      <div class="f__contact-info">
+        
+        <span><i class="fas fa-location-arrow"></i>153 Williamson Plaza, Maggieberg</span>
+        <br>
+        <span><i class="fas fa-phone-alt"></i> +1(062) 109-9222</span>
+      </div>
+    </div>
+      
     <div class="f__company-wrapper">
       <h3>Company</h3>
       <ul class="f__company-list">
@@ -715,7 +722,9 @@
         </li
         >
         <li>
-          <a href="#">Careers
+          <a href="#">Careers</a>
+          <a href="#">
+            <!-- this should be an ::After pseudoelement i think  -->
             <span class="btn btn-blue">We're hiring</span>
           </a>
         </li>

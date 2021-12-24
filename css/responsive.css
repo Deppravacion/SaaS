@@ -106,8 +106,96 @@
     display: flex;
     flex-direction: row;
   }
+
+
+  /* pricing  */
+
+  .pricing h2 {
+    text-align: center;
+    
+
+  }
+
+  .p__grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+  }
+
+
+  /* form  */
+
+  .form-container {
+    max-width: 60%;
+  }
+
+ /* for the footer i wan tto use grid-template-areas to easily control ipad/ipad-pro+ layouts  */
+
+  .footer {
+    display: grid;
+    grid-template-areas: 
+    "a a"
+    "b c "
+    "d e";
+    grid-template-rows: 3fr;
+    grid-template-columns: 2fr;
+    padding: 50px 150px;
+  }
+
+  
+
+  .f__contact-wrapper { 
+    grid-area: a;
+    text-align: center;
+   }
+
+  .f__company-wrapper { grid-area: b; }
+
+  .f__features-wrapper { grid-area: c; }
+
+  .f__documentation-wrapper { grid-area: d; }
+
+  .f__resources-wrapper { grid-area: e; }
+
+
+
 }
 
+/* ipad pro and larger screen  */
+/* ipad pro and larger screen  */
+
+
+@media screen and (min-width: 1024px){
+
+
+
+  /* form  */
+
+  .form-container {
+    max-width: 40%;
+  }
+
+  /* pricing  */
+
+  .p__flex-wrapper {
+    display: flex;
+  }
+
+
+
+
+
+
+  /* footer  */
+
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 50px;
+  }
+
+
+}
 
 
   

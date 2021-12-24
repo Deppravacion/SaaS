@@ -568,7 +568,8 @@
 
 .pricing h5 {
   color: var(--font-color-light);
-  
+  text-align: center;
+  margin-top: 0;
 
 }
 
