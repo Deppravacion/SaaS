@@ -63,7 +63,7 @@
   overflow: hidden;
   padding: 150px 16px 150px 16px;
 
-  height: 120vh;
+  height: auto;
   background-image: 
   linear-gradient(-190deg, rgba(69, 69, 69, 0.2) 60%, rgba(255, 245, 245, 1) 73%);
   background-repeat: no-repeat;
@@ -344,6 +344,9 @@
   margin-right: auto;
   color: white; 
 }
+
+
+
 /* software for people */
 /* software for people */
 /* software for people */
@@ -391,6 +394,13 @@
   margin: 5px 0px 5px 26px;
 }
 
+.horizontal-dash {
+  display: none;
+  height: 2px;
+  width: auto;
+  background-color: dodgerblue;
+}
+
 .wf__wrapper p {
   margin-top: 0;
   margin-bottom: 20px;
@@ -430,6 +440,10 @@
   margin-right: 5px;
   
 }
+
+
+
+
 
 .items__wrapper {
   text-align: center;

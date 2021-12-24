@@ -1,7 +1,7 @@
 
 /* iPads and tablets -portrait */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   [aria-controls="navbarDropdown"] {
     display: block;
     position: absolute;
@@ -12,13 +12,102 @@
     border: none;
     font-size: 20px;
   }
-
+  
   [aria-expanded="false"] ~ ul {
     display: none;
   }
-
+  
   [aria-expanded="true"] ~ ul {
     display: block;
     margin-left: 100px;
   }
 }
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+  /* pop in the flex  */
+  .teams {
+    display: flex;
+  }
+/* turn the gird on  */
+  .key-benefits__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 10px;
+  }
+
+  /* why front  */
+
+  .why-front {
+    text-align: center;
+  }
+
+  .wf__wrapper {
+    padding: 10px 100px;
+  }
+
+  .dot-dash-big-wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .elements {
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .horizontal-dash {
+    display: block;
+    height: 1px;
+    width: auto;
+    /* z-index: 11; */
+    background: dodgerblue;
+    
+  }
+  .dash-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+  }
+  
+  .vertical-dash {
+    display: none;
+  }
+
+  
+  /* executive  */
+
+  .executive {
+    display: flex;
+    gap: 30px;
+  }
+
+  .ex__wrapper-relative {
+    flex: 1;
+  }
+
+  .ex_content-wrapper {
+    flex: 1;
+
+  }
+
+
+
+  /* worlds best  */
+
+  .wb__flex-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+
+
+  
