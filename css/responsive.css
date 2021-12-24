@@ -24,12 +24,6 @@
 }
 
 
-
-
-
-
-
-
 @media screen and (min-width: 768px) {
   /* pop in the flex  */
   .teams {
@@ -49,7 +43,7 @@
   }
 
   .wf__wrapper {
-    padding: 10px 100px;
+    padding: var(--size-10) var(--size-100);
   }
 
   .dot-dash-big-wrapper {
@@ -74,7 +68,7 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    margin-top: 25px;
+    margin-top: 1.563rem;
   }
   
   .vertical-dash {
@@ -86,7 +80,7 @@
 
   .executive {
     display: flex;
-    gap: 30px;
+    gap: 3var(--size-30);
   }
 
   .ex__wrapper-relative {
@@ -118,8 +112,8 @@
 
   .p__grid-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(13.75rem, 1fr));
+    gap: 1.563rem;
   }
 
 
@@ -139,7 +133,7 @@
     "d e";
     grid-template-rows: 3fr;
     grid-template-columns: 2fr;
-    padding: 50px 150px;
+    padding: var(--size-50) var(--size-150);
   }
 
   
@@ -191,7 +185,7 @@
   .footer {
     display: flex;
     justify-content: space-evenly;
-    padding: 50px 50px;
+    padding: var(--size-50);
   }
 
 
