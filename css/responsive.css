@@ -5,12 +5,12 @@
   [aria-controls="navbarDropdown"] {
     display: block;
     position: absolute;
-    right: 15px;
-    top: 50px;
+    right: 1rem;
+    top: var(--size-50);
     outline: none;
     background: transparent;
     border: none;
-    font-size: 20px;
+    font-size: var(--size-20);
   }
   
   [aria-expanded="false"] ~ ul {
@@ -19,7 +19,7 @@
   
   [aria-expanded="true"] ~ ul {
     display: block;
-    margin-left: 100px;
+    margin-left: var(--size-100);
   }
 }
 
@@ -33,7 +33,7 @@
   .key-benefits__grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 10px;
+    gap: var(--size-10);
   }
 
   /* why front  */
@@ -58,7 +58,7 @@
 
   .horizontal-dash {
     display: block;
-    height: 1px;
+    height: 0.063rem;
     width: auto;
     /* z-index: 11; */
     background: dodgerblue;
@@ -80,7 +80,7 @@
 
   .executive {
     display: flex;
-    gap: 3var(--size-30);
+    gap: var(--size-30);
   }
 
   .ex__wrapper-relative {
