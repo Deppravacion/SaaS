@@ -9,8 +9,7 @@
   padding-bottom: var(--size-40);
   width: 100%;
   z-index: 1111;
-  transition: ease-in-out 0.3s;
- 
+  transition: ease-in-out 0.3s; 
 }
 
 .topper {
@@ -428,6 +427,7 @@
   display: inline-block;
   box-shadow: 0px 0px 0.063rem 1.563rem lightblue;
 }
+
 .dash {
   height: 0.125rem;
   width: 100%;
@@ -438,6 +438,7 @@
   margin-right: 0.313rem;
   
 }
+
 .items__wrapper {
   text-align: center;
 }
@@ -460,7 +461,6 @@
   position: relative;
   height: 26.25rem;
   overflow: hidden;
-
 }
 
 .ex__image-wrapper-dots {
@@ -575,7 +575,6 @@
   font-size: 1.563rem;
 }
 
-
 .p__main-card-wrapper {
   box-shadow: 0rem 0rem 1.25rem 0.063rem lightgrey;
   padding: var(--size-10) var(--size-50);
@@ -626,6 +625,7 @@
 .hu__content-wrapper p {
   color: #f9ffe3;
 }
+
 .hu__content-wrapper h2 {
   color: #f9ffe3;
   font-size: var(--size-50);
@@ -655,14 +655,9 @@ margin-top: 0;
   color: var(--font-color-light);
 }
 
-
-
-
 .hu__content-wrapper p { 
   font-size: 1.563rem; 
 }
-
-
 
 .thumbnails img {
   max-width: var(--size-50);
@@ -678,8 +673,6 @@ margin-top: 0;
   border: none;
   border-radius: 0.75rem;
 }
-
-
 
 .form-container h2,
 .form-container label {
@@ -704,12 +697,11 @@ margin-top: 0;
   background: transparent;
   color: var(--font-color-light);
 }
-/* responsive textarea */
+
 .form-container textarea {
   box-sizing: border-box;
   width: 100%
 }
-
 
 .form-container ::placeholder {
   color: var(--font-color-light);
