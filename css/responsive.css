@@ -26,13 +26,15 @@
 
 @media screen and (min-width: 768px) {
   /* pop in the flex  */
+
   .teams {
     display: flex;
   }
+
 /* turn the gird on  */
   .key-benefits__grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap: var(--size-10);
   }
 
@@ -60,10 +62,9 @@
     display: block;
     height: 0.063rem;
     width: auto;
-    /* z-index: 11; */
-    background: dodgerblue;
-    
+    background: var(--bg-hue-blue); 
   }
+
   .dash-wrapper {
     flex: 1;
     display: flex;
@@ -75,7 +76,6 @@
     display: none;
   }
 
-  
   /* executive  */
 
   .executive {
@@ -89,9 +89,7 @@
 
   .ex_content-wrapper {
     flex: 1;
-
   }
-
 
 
   /* worlds best  */
@@ -104,11 +102,7 @@
 
   /* pricing  */
 
-  .pricing h2 {
-    text-align: center;
-    
-
-  }
+  .pricing h2 { text-align: center; }
 
   .p__grid-wrapper {
     display: grid;
@@ -116,14 +110,13 @@
     gap: 1.563rem;
   }
 
-
   /* form  */
 
   .form-container {
     max-width: 60%;
   }
 
- /* for the footer i wan tto use grid-template-areas to easily control ipad/ipad-pro+ layouts  */
+ /* use grid-template-areas to easily control ipad/ipad-pro+ layouts  */
 
   .footer {
     display: grid;
@@ -161,8 +154,6 @@
 
 @media screen and (min-width: 1024px){
 
-
-
   /* form  */
 
   .form-container {
@@ -175,11 +166,6 @@
     display: flex;
   }
 
-
-
-
-
-
   /* footer  */
 
   .footer {
@@ -187,8 +173,6 @@
     justify-content: space-evenly;
     padding: var(--size-50);
   }
-
-
 }
 
 
