@@ -62,7 +62,7 @@
     display: block;
     height: 0.063rem;
     width: auto;
-    background: var(--bg-hue-blue); 
+    background: dodgerblue; 
   }
 
   .dash-wrapper {
@@ -91,14 +91,12 @@
     flex: 1;
   }
 
-
   /* worlds best  */
 
   .wb__flex-wrapper {
     display: flex;
     flex-direction: row;
   }
-
 
   /* pricing  */
 
@@ -128,8 +126,6 @@
     grid-template-columns: 2fr;
     padding: var(--size-50) var(--size-150);
   }
-
-  
 
   .f__contact-wrapper { 
     grid-area: a;
