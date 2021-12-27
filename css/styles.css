@@ -761,6 +761,8 @@ input#submit {
   text-decoration: underline;
 }
 
+/* add display in block testing  */
+
 
 #scrollUp {
   background-image: linear-gradient(90deg, #9ccdfe 0%, #94aafd 100%);
@@ -775,4 +777,8 @@ input#submit {
   border-radius: 8px;
   line-height: var(--size-50);
   z-index: 100;
+}
+
+.scroll-off {
+  display: none;
 }

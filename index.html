@@ -758,10 +758,12 @@
       </ul>
     </div>
   </section>
-
-  <a href="#pageTop" id="scrollUp">
+  
+  <a href="#pageTop" id="scrollUp" class="">
     <i class="far fa-hand-point-up"></i>
   </a>
+  
+  
 
   <!-- bring in fontawesome font kit  -->
 
@@ -771,15 +773,42 @@
   <script>
 
     // controls the scroll effect on navbar
+    // i was able to figure out how the javascript was working and use it
+    // to also control the state of the scroll button.
+    // at first i tried to copy/past another function like the navbar but it kept breaking
+    // i figured out i need to embed the scroll button function with the nav in order to 
+    // use the window.pageYoffset function
+
+    // const nav = document.getElementById("topNav");
+    //     window.onscroll = function () {
+    //         if (window.pageYOffset > 100) {
+    //             nav.classList.add("sticky");
+    //         } else {
+    //             nav.classList.remove("sticky");
+    //         }
+    //     }
+
+
+
+    // This controls the navbar scroll appearance and the scroll up button
 
     const nav = document.getElementById("topNav");
+    const scroll = document.getElementById("scrollUp")
         window.onscroll = function () {
             if (window.pageYOffset > 100) {
                 nav.classList.add("sticky");
+                scroll.classList.remove("scroll-off");
             } else {
                 nav.classList.remove("sticky");
+                scroll.classList.add("scroll-off");
             }
         }
+
+
+    
+   
+
+
 
     // required to toggle the button aria-state
 
@@ -788,7 +817,7 @@
       function toggleNav({ target }) {
         const expanded = target.getAttribute('aria-expanded') === 'true' || false;
         navButton.setAttribute('aria-expanded', !expanded);
-        
+
       }
     navButton.addEventListener('click', toggleNav);
 
