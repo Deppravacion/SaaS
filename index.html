@@ -779,15 +779,15 @@
     const nav = document.getElementById("topNav");
     const scroll = document.getElementById("scrollUp")
 
-        window.onscroll = function () {
-            if (window.pageYOffset > 100) {
-                nav.classList.add("sticky");
-                scroll.classList.remove("scroll-off");
-            } else {
-                nav.classList.remove("sticky");
-                scroll.classList.add("scroll-off");
-            }
+    window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+            nav.classList.add("sticky");
+            scroll.classList.remove("scroll-off");
+        } else {
+            nav.classList.remove("sticky");
+            scroll.classList.add("scroll-off");
         }
+    }
 
 
     
