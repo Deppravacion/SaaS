@@ -667,14 +667,14 @@ margin-top: 0;
 /* form bit */
 
 .form-container {
-  background: #f5fffa;
+  background: #f5fffa3e;
   border: none;
   border-radius: 0.75rem;
 }
 
 .form-container h2,
 .form-container label {
-  color: #4b3621;
+  color: var(--white);
   text-align: center;
 }
 
@@ -711,7 +711,8 @@ margin-top: 0;
   text-align: center;
 }
 .fc__privacy-policy {
-  border-bottom: 0.063rem dotted var(--font-color-dark);
+  color: var(--white);
+  border-bottom: 0.063rem dotted var(--font-color-light);
 }
 
 .fc__btn-wide {
