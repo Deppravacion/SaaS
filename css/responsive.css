@@ -21,6 +21,10 @@
     display: block;
     margin-left: var(--size-100);
   }
+
+  [aria-expanded="true"] .navbar-wrapper {
+    background-color: aliceblue;
+  }
 }
 
 
