@@ -20,6 +20,10 @@
   align-items: center
 }
 
+.navbar-wrapper i {
+  pointer-events: none;
+}
+
 .navbar ul li { margin-left: 1rem; }
 
 .navbar img {
@@ -35,6 +39,7 @@
 .navbar.sticky {
   box-shadow: 0rem 0rem 1.25rem rgb(48 69 100 / 20%);
   background: var(--white);
+  padding-bottom: 0px;
 }
 
 .navbar.sticky .navbar-toggler i, 
