@@ -63,7 +63,7 @@
 
 .teams {
   overflow: hidden;
-  padding: 9.375rem 1rem 9.375rem 1rem;
+  padding: 9.375rem 1rem 1.375rem 1rem;
   height: auto;
   background-image: 
   linear-gradient(-190deg, rgba(69, 69, 69, 0.2) 60%, rgba(255, 245, 245, 1) 73%);
